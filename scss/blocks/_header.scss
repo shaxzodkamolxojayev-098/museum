@@ -1,0 +1,33 @@
+.header{
+  background-color: #030303;
+  padding: 62px 0;
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar__item{
+  margin-right: 55px;
+}
+
+.navbar__item--end{
+  margin-right: 0;
+}
+
+.navbar__link{
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
