@@ -539,4 +539,43 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+}
+
+.las-meninas {
+  padding: 75px 0;
+  background-color: #030303;
+}
+
+.las-meninas__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.las-meninas__title {
+  max-width: 660px;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.las-meninas__line {
+  display: inline-block;
+  min-width: 660px;
+  height: 3px;
+  margin-bottom: 75px;
+  background-color: #710707;
+}
+
+.las-meninas__text {
+  max-width: 660px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
