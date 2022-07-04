@@ -408,9 +408,17 @@ body {
   color: #FFFFFF;
 }
 
-@media only screen and (max-hidth: 1190px) {
-  .header__logo {
+.header__burger-link {
+  display: none;
+}
+
+@media only screen and (max-width: 1190px) {
+  .navbar__item {
     display: none;
+  }
+
+  .header__burger-link {
+    display: block;
   }
 }
 .hero {
@@ -425,11 +433,14 @@ body {
 }
 
 .hero__content {
-  max-width: 594px;
+  position: relative;
+  z-index: 100;
+  right: 0;
+  width: 594px;
 }
 
 .hero__title {
-  max-width: 593px;
+  width: 593px;
   margin: 0;
   margin-bottom: 25px;
   font-weight: 400;
@@ -447,6 +458,11 @@ body {
   line-height: 33px;
   letter-spacing: 2px;
   color: #FFFFFF;
+}
+
+.hero__inner-img {
+  position: relative;
+  left: -150px;
 }
 
 .hero__button {

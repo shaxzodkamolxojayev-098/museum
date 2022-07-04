@@ -32,6 +32,9 @@
   color: #FFFFFF;
 }
 
+.header__burger-link{
+  display: none;
+}
 
 
 
@@ -41,8 +44,13 @@
 
 
 
-@media only screen and (max-hidth: 1190px){
-  .header__logo{
+
+@media only screen and (max-width: 1190px){
+  .navbar__item{
     display: none;
   }
+
+  .header__burger-link{
+    display: block;
+  }  
 }

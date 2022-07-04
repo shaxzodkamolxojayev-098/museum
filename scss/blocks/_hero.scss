@@ -10,11 +10,14 @@
 }
 
 .hero__content{
-  max-width: 594px;
+  position: relative;
+  z-index: 100;
+  right: 0;
+  width: 594px;
 }
 
 .hero__title{
-  max-width: 593px;
+  width: 593px;
   margin: 0;
   margin-bottom: 25px;
   font-weight: 400;
@@ -33,6 +36,11 @@
   line-height: 33px;
   letter-spacing: 2px;
   color: #FFFFFF;
+}
+
+.hero__inner-img{
+  position: relative;
+  left: -150px;
 }
 
 .hero__button{
