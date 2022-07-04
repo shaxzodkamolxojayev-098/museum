@@ -360,11 +360,6 @@ body {
   max-width: 1480px;
 }
 
-@media only screen and (max-hidth: 1190px) {
-  .navbar {
-    display: none;
-  }
-}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -409,6 +404,62 @@ body {
   font-weight: 100;
   font-size: 22px;
   line-height: 26px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+@media only screen and (max-hidth: 1190px) {
+  .header__logo {
+    display: none;
+  }
+}
+.hero {
+  background-color: #030303;
+  padding-bottom: 60px;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__content {
+  max-width: 594px;
+}
+
+.hero__title {
+  max-width: 593px;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 75px;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.hero__button {
+  max-width: 360px;
+  padding: 20px 60px;
+  background: #710707;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
   letter-spacing: 2px;
   color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
