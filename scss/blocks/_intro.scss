@@ -39,13 +39,22 @@
 
 .intro-item__title{
   margin: 25px 0 10px;
-  max-width: 252px;
+  max-width: 300px;
   font-weight: 400;
   font-size: 32px;
   line-height: 35px;
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #000000;
+}
+
+.intro-item__line{
+  display: block;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 2px;
+  background: #710707;
+  border-radius: 0px;
 }
 
 .intro-itemt__line{
