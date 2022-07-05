@@ -3,3 +3,191 @@
   padding-bottom: 75px;
   background-color: #dbdbdb;
 }
+
+.journey__box{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.journey__title{
+  max-width: 605px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+
+.journey__text{
+  max-width: 720px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.journey__video{
+  margin-bottom: 40px;
+}
+
+.journey__video-link{
+  max-width: 1440px;
+  height: 650px;
+}
+
+.journey__list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.journey__video-item{
+  max-width: 452px;
+}
+
+.journey__videos{
+  margin-bottom: 40px;
+}
+
+.journey__pult{
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1400px) {
+   .journey{
+    padding: 40px 0;
+   }
+
+  .journey__video-link{
+    max-width: 1300px;
+    height: 444px;
+  }
+
+  .journey__img{
+    max-width: 1300px;
+  }
+
+  .journey__box{
+    margin-bottom: 40px;
+  }
+
+  .journey__title{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+  }
+
+  .journey__text{
+    display: none;
+  }
+
+  .journey__video-item{
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .journey__video-link{
+    max-width: 984px;
+    height: 444px;
+  }
+
+  .journey__img{
+    max-width: 984px;
+    height: 60px;
+  }
+
+  .journey__video{
+    max-width: 984px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .journey__video-link{
+    max-width: 728px;
+    height: 329px;
+  }
+
+  .journey__img{
+    max-width: 728px;
+    height: 53px;
+  }
+
+  .journey__video{
+    max-width: 728px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1070px){
+  .journey__item{
+    max-width: 300px;
+  }
+
+  .journey__item:nth-child(2){ 
+     display: none;
+  }
+}
+
+@media only screen and (max-width: 960px){
+  .journey__video-link{
+    max-width: 380px;
+    height: 172px;
+  }
+
+  .journey__img{
+    max-width: 380px;
+    height: 50px;
+  }
+
+  .journey__video{
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .journey__item{
+    width: 100%;
+    max-width: 180px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .journey__video-link{
+    max-width: 380px;
+    height: 172px;
+  }
+
+  .journey__img{
+    max-width: 380px;
+    height: 50px;
+  }
+
+  .journey__video{
+    max-width: 380px;
+    margin: 0 auto;
+  }
+}
